@@ -1,0 +1,62 @@
+2a.)
+  --> Caesar Cipher :- It is a simply encrytion technique used send secret message . It works by shifting the letters in the plaintext message by a certain number of postions known as the 'shif' or 'Key'.
+this technique is one of the earliest and simplest methods of encryption technique. fromual C=(p+k)mod26 p=(C-k)mod26
+For EX:- 
+plaintext=HELLO Shift = 3
+H=K  
+E=H
+L=O
+L=O
+O=R
+the encrypted message is KHOOR.
+
+ --> Enimga Cipher :- It is a cipher device used to protect commercial diplomatic & military communication. It was considered so secure that it was used to encipher the  most top secrect messages. 
+It is an electromechanical rotor mechanism that scrambles the 26 letters of alphabet. If plaintext is entered it illuminated letters to ciphertext. Entering ciphertext transform if back into readable plaintext.
+
+2b.)
+-->types of malwares
+
+1.) Spyware :- It is a malicious S/W that enters a uers's computer gathaers data from the device and user and sends it to the third parties without their consent. 
+	ex :- tracking cookies,password stealers,system monitor etc
+
+2.) Rootkit :- it is a prg or a collection of malicious S/W tools that give a threat actor remote access to and control over a computer or other system and it is 
+designed to create the backdoor for hacker.
+
+3.) Virus :- its a type of malicious S/W that spreads B/W computers and causes damage to data and S/W it can infect a computer without permission or knowleadge of the user
+ex:-  i love you , boot sector virus
+
+4.) Ransomware :- it is designed to deny a user or organization access to files on their computer by encrypting the files/data and demanding the money for decryption 
+key some versions of this can take advantage of S/W vulnerabilities to lock it down.
+	ex :- phishing email 
+
+5.) Worm :- A prg that replicates itself,automatically spreading through a N/W like virus it does not need user to run the computer.
+	ex :- email worms,code red
+
+3a.)
+--> 
+1.) Antivirus S/W :- It is a security prg designed to prevent, detect,search and remove viruses and other types of malware from computers , N/W and other devices.
+2.) Anti-Spyware :- it is a type of prg designed to prevent & detect unwanted spyware prg installations & to remove those prg if installed.
+3.) Password :- Giving a strong password to devices so that unauthorized person can't access the devices or it will prevent from brute-froce-attacks.
+4.) Firewall :- It is a N/W security device that monitors incoming and outgoing N/W traffic and decides whether to allow or block specific traffic based on a defined set of security rules.
+5.) S/W Updates :- the need for regular S/W and patch management to prevent vulnerabilites.
+6.) Backup data :- 
+
+3b.)
+
+--> Encryption :- The process of encoding info known as plaintext into an alternative from known as ciphertext.
+1.) plaintext :- It is the data to be protected during transmission.
+2.) Encryption Algorithm :- it is a methematical process that produces a ciphertext for any given plaintext & encryption key.
+3.) Ciphertext :- It is the scrambled version of the plaintext produced by the encryption algorthim using a specific the encryption key.
+
+--> Digital Signature :- It is a methematical technnic used to validate authencity of a preson
+ex :- internet banking , user,email password ,UPI code
+1.) Authentication
+2.) Non repudation
+3.) Integrity
+4.) Confidentiality
+
+--> Hashing :- It is a process of scrumbing a piece of info or data beyond recogation they are design to be irreversible we pass the input through a hash function to calculate the hash value / digest.
+
+--> hash function :- Any function that can be used to map data of arbitrary size to fixed-size values.
+
+--> key generation :- the generation of a cryptographic key either as a single process using a random bit generator and an apporved set of rules or as created during key agreement or key derivation.

@@ -1,0 +1,12 @@
+OS command injection (shell injection) :-
+	it is attack in which the goal is execution of  arbitrary(attacker choice on a target machine in order to run
+the cmd / code) cmd on the host os via a vulnerable applications.
+
+for ex :- a threat actor can use insecure transmissions of user data such as cookies & forms to inject a cmd into the
+system shell on a web server.
+
+how to prevent cmd injection:-
+
+-> Limit the use of shell cmd execution fuctions as much as possible.
+-> using safe coding 
+-> conducting regular security testing.

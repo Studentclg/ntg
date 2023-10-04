@@ -1,0 +1,34 @@
+HTTP Header :-
+	they are used to pass additional info b/w the clients and the server through the request and response header. 
+Request header :-
+	it contain more info about the resource to be fetched or about the client requesrting the resource.
+
+Response header :-
+	it hold additional info about the response like its location or about the server providing it.
+
+Representation header :-
+	it contain info about the body of the resource or encoding / compression applied.
+
+Payload header:-
+	it contain representation independent info about payload data including content length and the encoding used for transport.
+
+HTTP header injection :-
+	it is a technique that can be used to facilitate malicious attacks such as cross-site scripting,web cache poisoning and more.
+
+
+--> causes
+
+-> most web appliaction security vulnerabilites , HTTP header injection vulnerablities (and CRLF [carriage return and line feed] vulnerablities in general) 
+are the result of overtrusting user input. if the developer of a web applicaton uses external data directly in HTTP responses , it's usually possible to perform 
+an HTTP header injection attack.
+
+--> Stored HTTP header injection 
+	the related attacks are quite rare ,just like in the case of stored cross-site scripting vulnerabilites stored HTTP header injection is more dangerous becz
+it may potentially affect all users that vist your website or use ur web application.
+
+--> Consequences of HTTP header injection attacks
+	the attacker may exploit an HTTP header injection vulnerability directly to use your domain as a basis for a phishing attack.
+
+--> how to detect and avoid HTTP 
+	the best way to detect HTTP header injection vulnerablities is to use a renownde web vulnerability scanner such as Acunetix
+

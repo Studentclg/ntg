@@ -1,0 +1,24 @@
+Advantages of http
+
+-> Addressing (ip)
+-> Flexibility :-
+	HTTP has the capability to download extensions or plugins and display the relevant data.
+-> Security
+-> Latency :-
+	only when the coonection is established the handshaking process will take place in HTTP.
+-> Accessibility :-
+	when the page is loaded for the first time all of the HTTP pages gets stored inside the internet caches known as the page cache.
+
+Disadvantages of http
+
+-> Data Integrity:-
+	Since there are no any encrytion methods used in HTTP there are chances of someone altering the content
+-> Data Privacy :-
+	if any hacker manges to intercept the request they can view all the content present in the web page.
+-> Server Availability :-
+	Even if http receives all the data that it needs , clients does not take measures to close the connection therefore during this time period server will 
+not be present.
+-> Administrative Overhead :-
+	For transmitting a web page , a HTTP needs to create multiple connections this causes administrative overhead in the connection.
+-> IOT device support :-
+	Since IOT device today contain wireless sensor n/w it is not suitable to use HTTP
